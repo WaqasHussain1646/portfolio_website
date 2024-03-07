@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login from</title>
+</head>
+<body>
+    <a href="index.html">index</a>
+    <a href="project_page.html">Project</a>
+    <a href="skills_page.html">Skills</a>
+    <a href="contact_page.html">Contact</a>
+    <form action="">
+        <fieldset>
+            <legend><h1>REGISTERATION FORM</h1></legend>
+            <p>Upload your picture:</p>
+            <input type="file" name="upload picture">
+            <input type="submit" value="upload">
+            <br>
+            <p>Name:
+                <input type="text" name="name" placeholder="First Name" size="16" maxlength="30">
+                <input type="text" name="name" placeholder="Last Name" size="16" maxlength="30">
+            </p>
+            <p>Email:
+                <input type="email" name="email" placeholder="example@gmail.com" size="38" maxlength="30">
+            </p>
+            <p>Username: 
+                <input type="text" name="username" required="required" size="34" maxlength="30">
+            </p>
+            <p>Password:
+                <input type="password" name="password" required="required" size="35" maxlength="30">
+            </p>
+            <P>Phone Number
+                <select name="number" id="number">
+                    <option value="select-">+--</option>
+                    <option value="+92">+92</option>
+                    <option value="+91">+91</option>
+                    <option value="+351">+351</option>
+                    <option value="+462">+462</option>
+                </select>
+                <input type="text" name="number" size="22" maxlength="10">
+            </P>
+            <p>Enter your date of birth:
+                <input type="date">
+            </p>
+            <p>Select your gender:
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </p>
+            <p>
+                <input type="checkbox" name="remember">Remember me on this site
+            </p>
+            <button>Sign-up</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
